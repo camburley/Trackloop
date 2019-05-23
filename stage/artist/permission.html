@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Permission</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap Stylesheets -->
+
+    <link type="text/css" href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link type="text/css" href="css/flat.css" rel="stylesheet">
+
+    <!-- After the final delivery activate these and remove the above links
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    -->
+
+    <!-- Main Stylesheets -->
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
+
+    <!-- Plugin Stylesheets -->
+
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Favicon and Apple Icons -->
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+</head>
+
+<body>
+
+    <!-- Start Desktop View -->
+    <div class="permission visible-desktop">
+        <header>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h1 class="logo">Trackloop<a href="index.html"></a></h1>
+                    </div>
+                </div>
+                <!-- end row-fluid -->
+            </div>
+            <!-- end container-fluid -->
+        </header>
+
+        <!--contain -->
+        <div class="row-fluid">
+            <div class="span3 sidebar">
+                <div class="sidebar-title">
+                    <h1>Phil Street</h1>
+                </div>
+                <ul class="menu">
+                    <li><a href="profile.html">
+                        <img src="images/menu-1.png" alt="" />Profile</a></li>
+                    <li><a href="buzz.html">
+                        <img src="images/menu-2.png" alt="" />Buzz</a></li>
+                    <li><a href="index.html">
+                        <img src="images/menu-3.png" alt="" />Fans </a></li>
+                    <li><a href="account.html">
+                        <img src="images/menu-4.png" alt="" />Account</a></li>
+                    <li class="active"><a href="permission.html">
+                        <img src="images/menu-5.png" alt="" />Permissions</a></li>
+                </ul>
+            </div>
+
+            <div class="span9">
+                <div>
+                    <h2>Give access to another person</h2>
+                </div>
+
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Profile
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Buzz
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Fans
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Account
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Permissions
+                </label>
+
+                <form>
+                    <fieldset class="one-column-layout">
+                        <label>Name</label>
+                        <input class="input-xlarge" type="text" placeholder="">
+                        <label>E-mail</label>
+                        <input class="input-xlarge" type="email" placeholder="">
+                        <input class="btn btn-large btn-block btn-info account-button" onclick="ShowPageLinkFun1()" type="button" value="GIVE USER ACCESS" />
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <!--end contain -->
+
+        <footer>
+            <h4>Powered by Trackloop</h4>
+            <p>Get your music out there. </p>
+        </footer>
+    </div>
+    <!-- End Desktop View -->
+
+        <!-- Start mobile View -->
+    <div class="permission visible-phone">
+        <header class="mobile-header">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h1 class="mobile-logo"><a href="mobile-menu.html"></a></h1>
+                        <div class="mobile-heading text-center">Trackloop.fm</div>
+                    </div>
+                </div>
+                <!-- end row-fluid -->
+            </div>
+            <!-- end container-fluid -->
+        </header>
+
+        <!--contain -->
+        <div class="row-fluid">
+            <div class="span9">
+                <div class="checkbox-title">
+                    <h2>Give access to another person</h2>
+                </div>
+
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Profile
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Buzz
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Fans
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Account
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" value="">
+                  Permissions
+                </label>
+
+                <form>
+                    <fieldset class="one-column-layout">
+                        <label>Name</label>
+                        <input class="input-xlarge" type="text" placeholder="">
+                        <label>E-mail</label>
+                        <input class="input-xlarge" type="email" placeholder="">
+						<div class="pagelink-button">
+                            <img src="images/tauch-hand.png" alt="" /><input class="submit-tweet btn btn-large btn-block btn-info btn-large" type="button" value="GIVE USER ACCESS" />
+                        </div>
+                       
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <!--end contain -->
+
+        <footer class="mobile-footer">
+            <p>Powered by Trackloop</p>
+        </footer>
+    </div>
+    <!-- End Mobile View -->
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/custom_checkbox_and_radio.js"></script>
+</body>
+</html>

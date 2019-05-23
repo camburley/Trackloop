@@ -1,0 +1,173 @@
+﻿.clearfix:after {
+    visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.bootstrap-select.btn-group, .bootstrap-select.btn-group[class*="span"] {
+	float:none; 
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left:0;
+	border:0;
+}
+.bootstrap-select {
+	width:220px;
+	
+	height:auto;
+	border:0;
+}
+.bootstrap-select .btn {
+	width:220px;
+	border:0;
+}
+.bootstrap-select.btn-group .btn .filter-option {
+	white-space:nowrap;
+	overflow:hidden;
+		background-color:transparent;;
+}
+.bootstrap-select.btn-group .disabled {
+	cursor: not-allowed;
+}
+.bootstrap-select.btn-group[class*="span"] .btn {
+	width:100%;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+	min-width:100%;
+}
+
+.bootstrap-select.btn-group .dropdown-menu ul {
+	margin:0;
+	list-style:none;
+}
+
+.btn-group {
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-mv-inverse-length
+{
+	
+	 height:40px;
+	 padding-top:8px;
+  border:0!important;
+ 
+  background:transparent;
+  	width:220px!important;
+ 
+  
+	background-color:none;
+	border-radius:0;
+	
+	
+
+}
+
+
+
+.btn-mv-inverse-length .dropdown-toggle
+{
+	 border:0;
+}
+.btn-mv-inverse-length .caret
+{
+	
+	float:right;
+	margin-bottom:0!important;
+	right:0;
+	margin-right:15px;
+	position:absolute;
+	
+}
+
+
+
+
+
+.new-admin-s .btn, .new-admin .dropdown-toggle
+{
+	border:0!important;
+	border-radius:0px!important;
+	box-shadow:none;
+	background-color:#373737;
+	color:#fff;
+	background-image:url('../img/dd-bg.png');
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding:10px 48px 10px 10px;
+	font-size:16px;
+	text-decoration:none;
+	width:220px;
+	border:0!important;
+	font-size:17px!important;
+	font-family:"Myriad Pro"!important;
+	text-align:left;
+	font-weight:normal!important;
+	
+
+	
+	
+}
+
+.new-admin-s .dropdown-menu
+{
+	padding-right:0;
+	
+	
+}
+
+
+.new-admin-s .dropdown-menu ul
+{
+	overflow:auto!important;
+	height:auto!important;
+	
+}
+
+.new-admin-s .dropdown-menu ul li a{
+
+border:0;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	font-family:"Myriad Pro";
+	width:100%;
+	padding:20px 40px 20px 20px;
+
+}
+
+.new-admin-s .dropdown-menu ul li{
+ width:100%;
+ padding:5px 0 0 0!important;
+ border-bottom:1px #424141 solid;
+ 
+ 
+ height:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

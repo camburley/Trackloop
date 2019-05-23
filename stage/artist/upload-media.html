@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>TRACKLOOP.FM | Upload Media</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap Stylesheets -->
+
+    <link type="text/css" href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link type="text/css" href="css/flat.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap-fileupload.min.css" rel="stylesheet">
+    <link type="text/css" href="css/autoSuggest.css" rel="stylesheet">
+
+    <!-- After the final delivery activate these and remove the above links
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    -->
+
+    <!-- Main Stylesheets -->
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
+
+    <!-- Plugin Stylesheets -->
+
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Favicon and Apple Icons -->
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+</head>
+
+<body>
+
+    <!-- Start Desktop View -->
+    <header>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <h1 class="logo">Trackloop<a href="index.html"></a></h1>
+                </div>
+            </div>
+            <!-- end row-fluid -->
+        </div>
+        <!-- end container-fluid -->
+    </header>
+
+    <!--contain -->
+    <div class="row-fluid">
+        <div class="span3 sidebar">
+            <div class="sidebar-title">
+                <h1>Phil Street</h1>
+            </div>
+            <ul class="menu">
+                <li class="active"><a href="profile.html">
+                    <img src="images/menu-1.png" alt="" />Profile</a></li>
+                <li><a href="buzz.html">
+                    <img src="images/menu-2.png" alt="" />Buzz</a></li>
+                <li><a href="#">
+                    <img src="images/menu-3.png" alt="" />Fans </a></li>
+                <li><a href="#">
+                    <img src="images/menu-4.png" alt="" />Account</a></li>
+                <li><a href="#">
+                    <img src="images/menu-5.png" alt="" />Permissions</a></li>
+            </ul>
+        </div>
+
+        <div class="span9 upload-media">
+
+            <div class="album-cover">
+                <div class="title">ALBUM COVER PREVIEW</div>
+                <div class="fileupload fileupload-new upload-cover" data-provides="fileupload">
+                    <div class="fileupload-new thumbnail" style="width: 249px; height: 152px;">
+                        <img src="images/album-cover.png" />
+                    </div>
+                    <div class="fileupload-preview fileupload-exists thumbnail" style="width: 249px; height: 152px;"></div>
+                    <span class="btn-file"><span class="fileupload-new">UPLOAD ALBUM COVER</span><input type="file" /><span class="fileupload-exists change">Change</span></span>
+                    <a href="#" class="fileupload-exists remove" data-dismiss="fileupload">Remove</a>
+                </div>
+            </div>
+
+            <input class="input-xlarge" type="text" placeholder="Release Name">
+
+
+
+            <div class="track-upload span11">
+                <h1 class="total-stats">TRACKS UPLOADED</h1>
+                <div class="fileupload fileupload-new" data-provides="fileupload">
+                    
+                    <span class="btn-file"><span class="fileupload-new">Upload New Track</span><span class="fileupload-exists change">Change</span><input type="file" /></span>
+                    <a href="#" class="fileupload-exists remove" data-dismiss="fileupload">Remove</a>
+					<div class="fileupload-preview fileupload-exists thumbnail" style="width: 31%; height: 50px;"></div>
+                </div>
+                <div class="no-data">You have not yet uploaded any treck</div>
+
+                <div>
+                    <label>TRACKS DESCRIPTION</label>
+                    <textarea class="span5 textarea-xxlarge" placeholder="blurb about this release"></textarea>
+                </div>
+
+                <div class="track-info">
+                    <label>ADD GENRES</label>
+                    <textarea name="tagsinput" id="tagsinput" class="span5 textarea-xlarge tagsinput" placeholder="ex. Hip-Hop, Indie Rock etc"></textarea>
+                </div>
+
+            </div>
+
+            <div class="submit">
+                <button type="submit" class="btn btn-small btn-block btn-info btn-large submit-button">SUBMIT</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--end contain -->
+
+    <footer>
+        <h4>Powered by Trackloop</h4>
+        <p>Get your music out there. </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-fileupload.min.js"></script>
+    <script type="text/javascript" src="js/audioplayer.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/bootstrap-switch.js"></script>
+    <script type="text/javascript" src="js/jquery.tagsinput.js"></script>
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+    <script>
+        $(function () {
+
+            $('audio').audioPlayer();
+            $.each($('audio'), function () {
+                $(this).siblings('.audioplayer-bar').children('.audioplayer-bar-loaded').text($(this).attr('title'));
+            });
+
+        });
+
+
+    </script>
+</body>
+</html>
